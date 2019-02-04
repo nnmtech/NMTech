@@ -1,0 +1,220 @@
+
+body {
+	background-img: url('Und-Atlanta.jpg');
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucid Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+	color: blue;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	background-color: #ff0000;
+	color: #fff;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav {
+	background-color: #ffa500;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 2% auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav a:active a:link, .mainHeader nav a:visited {
+	background-color: #ff0000;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	height: 20px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.top-content {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottom-content {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+
+#Sidebar > div {
+	text-align: right;
+}
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #ffa500;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin:2% 0 2% 3%;
+	padding: 2% 3%;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+	
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #ffa500;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 10% auto;
+	color: #00000;
+	text-align: center;
+}
+
+@media only screen and (min-width: 150px) and (max-width)
+{
+	.body {
+	width: 90%;
+	font-size: 95%;
+	}
+	
+	.mainHeader img {
+	width: 100%;
+	}
+	
+	.mainHeader nav {
+	height: 160px;
+	}
+
+	.mainHeader nav ul {
+	padding-left: 0;
+	}
+
+	.mainHeader nav ul li {
+	width: 100%;
+	text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+	}
+
+	.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+
+	.content {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	}
+	
+	.post-info {
+	display: flex;
+	}
+
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	width: 94%;
+	margin: 2% 0% 2% 3%;
+	padding: 2% 3%;
+	}
+	
+	.top-content {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	}
+
+	.bottom-content {
+	margin-top: 3%;
+	}
+
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	width: 94%;
+	margin: 2% 0% 2% 3%;
+	padding: 2% 3%;
+	}
+}
